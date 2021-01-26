@@ -21,8 +21,7 @@ class Paper{
      // angleMode(DEGREES)
     //  rotate(this.object.angle)
      imageMode(RADIUS)
-      fill("cyan")
-      image(this.image,pos.x,pos.y,50)
+      image(this.image,0,0,50)
       pop()
     }
 

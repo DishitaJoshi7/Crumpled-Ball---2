@@ -24,7 +24,7 @@ class Dustbin{
      display(){
         var pos = this.dustbin.position;
         imageMode(CENTER)
-        image(this.image, pos.x,pos.y,70,80);
+        image(this.image,580,250,150,180);
         
        
      }

@@ -35,7 +35,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);40
-  background(0);
+  background("white");
   
   ground.show(); 
   ball.display();
