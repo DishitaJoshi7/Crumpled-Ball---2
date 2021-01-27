@@ -3,7 +3,7 @@ class Paper{
         var op = {
             'restitution' : 0.3,
             'friction' : 0.5,
-            'density' : 3.0,
+            'density' : 0.5,
         }
         this.object = Bodies.circle(x, y,r/2, op );
         World.add(world, this.object);
@@ -21,7 +21,7 @@ class Paper{
      // angleMode(DEGREES)
     //  rotate(this.object.angle)
      imageMode(RADIUS)
-      image(this.image,0,0,50)
+      image(this.image,0,0,50,50);
       pop()
     }
 
