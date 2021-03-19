@@ -26,7 +26,7 @@ function setup() {
 	ball = new Paper(250,250,80);
 	//rightside = new Dustbin(680,300,20,100);
 	//leftside = new Dustbin(480,300,20,100);
-	bottom = new Dustbin(580,250,250,40);
+	bottom = new Dustbin(580,340,170,10);
 
 	Engine.run(engine);
   
@@ -34,8 +34,9 @@ function setup() {
 
 
 function draw() {
-  rectMode(CENTER);40
+  rectMode(CENTER);
   background("white");
+  text(mouseX + ','+mouseY, mouseX ,mouseY)
   
   ground.show(); 
   ball.display();
